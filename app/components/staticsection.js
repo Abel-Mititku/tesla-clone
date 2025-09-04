@@ -20,7 +20,7 @@ export default function StaticSection() {
       <div className="rounded-lg mt-8 bg-gray-100 mr-[10px] [@media(min-width:950px)]:flex flex-1">
         <div className="rounded-lg [@media(min-width:500px)]:hidden bg-[url('/assets/Homepage-Grid-Compare-3-Y.avif')] bg-center bg-cover w-full h-[180px]"></div>
         <div className="mt-4 ml-8">
-          <p className="text-extrabold text-3xl">Lease a Tesla</p>
+          <p className="text-extrabold text-3xl text-gray-800">Lease a Tesla</p>
           <p className="text-gray-700 text-sm">
             Explore lease pricing for Model 3 and Model Y, starting from
             $299/mo.
