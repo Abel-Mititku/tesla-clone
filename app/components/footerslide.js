@@ -50,7 +50,7 @@ export default function FooterSlide() {
             <p className="text-white text-sm">
               Use Solar Energy to Power Your Home and Charge Your Tesla
             </p>
-            <div className="flex">
+            <div className="flex text-sm">
               <button className="bg-blue-500 w-[35%] rounded-md h-8 text-white mr-4">
                 Order Now
               </button>
@@ -73,7 +73,7 @@ export default function FooterSlide() {
             <p className="text-white text-sm">
               Keep Your Lights On During Outages
             </p>
-            <div className="flex">
+            <div className="flex text-sm">
               <button className="bg-blue-500 w-[35%] rounded-md h-8 text-white mr-4">
                 Order Now
               </button>
@@ -96,7 +96,7 @@ export default function FooterSlide() {
             <p className="text-white text-sm">
               Generate Clean Energy With Your Roof
             </p>
-            <div className="flex">
+            <div className="flex text-sm">
               <button className="bg-blue-500 w-[35%] rounded-md h-8 text-white mr-4">
                 Order Now
               </button>
@@ -119,7 +119,7 @@ export default function FooterSlide() {
             <p className="text-white text-sm">
               Massive Batteries for Massive Energy Support
             </p>
-            <div className="flex">
+            <div className="flex text-sm">
               <button className="bg-blue-500 w-[35%] rounded-md h-8 text-white mr-4">
                 Order Now
               </button>

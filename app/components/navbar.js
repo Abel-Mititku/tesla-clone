@@ -735,7 +735,7 @@ export default function Navigation() {
         )}
 
         {click && (
-          <div className="absolute bg-white top-0 left-0 w-full h-screen z-[1000] text-sm overflow-y-scroll">
+          <div className="absolute bg-white top-0 left-0 w-full h-screen z-[1000] text-sm overflow-y-scroll text-gray-800 dark:text-gray-800">
             <button
               onClick={() => {
                 setClick(false);
@@ -751,7 +751,7 @@ export default function Navigation() {
             </button>
             {menuOpen && (
               <button onClick={handleCancel}>
-                <ChevronLeft className="absolute top-0 left-0 opacity-[0.7] hover:bg-gray-100 cursor:pointer flex [@media(min-width:950px)]:hidden" />
+                <ChevronLeft className="absolute top-0 left-0 opacity-[0.7] hover:bg-gray-100 cursor:pointer flex [@media(min-width:950px)]:hidden text-gray-800 dark:text-gray-800" />
               </button>
             )}
             <ul className="space-y-[10px] mt-16 bg-white">
