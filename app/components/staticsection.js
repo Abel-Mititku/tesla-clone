@@ -10,7 +10,7 @@ export default function StaticSection() {
           <p className="text-gray-700 text-sm">
             Limited inventory. Take delivery today.
           </p>
-          <button className="px-4 py-2 mt-4 mb-4 mr-4 w-[200px] text-sm bg-white rounded">
+          <button className="px-4 py-2 mt-4 mb-4 mr-4 w-[200px] text-sm bg-white rounded text-blue-900">
             Learn More
           </button>
         </div>
@@ -25,7 +25,7 @@ export default function StaticSection() {
             Explore lease pricing for Model 3 and Model Y, starting from
             $299/mo.
           </p>
-          <button className="px-4 py-2 mt-4 mb-4 w-[200px] text-sm bg-white rounded">
+          <button className="px-4 py-2 mt-4 mb-4 w-[200px] text-sm bg-white rounded text-blue-900">
             Compare
           </button>
         </div>

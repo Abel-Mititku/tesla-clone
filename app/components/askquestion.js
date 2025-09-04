@@ -12,14 +12,16 @@ export default function AskQuestion() {
         <div className="border border-gray-300 rounded bg-gray-100 [@media(min-width:500px)]:flex-1 mr-6 cursor-pointer">
           <div className="px-4 py-2 text-xs flex">
             <MessageSquareMoreIcon className="w-4 h-4 mr-2" />
-            <p className="hidden [@media(min-width:500px)]:block">
+            <p className="hidden [@media(min-width:500px)]:block text-blue-900">
               Ask a Question
             </p>
           </div>
         </div>
         <div className="flex items-center border border-gray-300 rounded bg-gray-100 [@media(max-width:500px)]:w-[70%] [@media(min-width:500px)]:flex-1 cursor-pointer">
           <SteeringWheel className="w-4 h-4 mr-2 ml-2" />
-          <p className="px-4 py-2 text-xs">Schedule a Drive Today</p>
+          <p className="px-4 py-2 text-xs text-blue-900">
+            Schedule a Drive Today
+          </p>
         </div>
       </div>
     </div>

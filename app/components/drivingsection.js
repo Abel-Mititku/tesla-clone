@@ -22,7 +22,7 @@ export default function DrivingSection() {
             <button className="bg-blue-500 w-[120px] rounded-md h-8 text-white mr-4">
               Demo Drive
             </button>
-            <button className="bg-white w-[120px] rounded-md h-8">
+            <button className="bg-white w-[120px] rounded-md h-8 text-blue-900">
               Learn More
             </button>
           </div>
