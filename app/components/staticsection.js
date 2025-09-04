@@ -6,7 +6,9 @@ export default function StaticSection() {
       <div className="rounded-lg mt-8 bg-gray-100 mr-[10px] [@media(min-width:950px)]:flex flex-1">
         <div className="rounded-lg [@media(min-width:500px)]:hidden bg-[url('/assets/Homepage-Grid-Current-Offers.avif')] bg-center bg-cover w-full h-[180px]"></div>
         <div className="mt-4 ml-8 ">
-          <p className="text-extrabold text-3xl">Current Offers</p>
+          <p className="text-extrabold text-3xl text-gray-800 dark:text-gray-800">
+            Current Offers
+          </p>
           <p className="text-gray-700 text-sm">
             Limited inventory. Take delivery today.
           </p>
