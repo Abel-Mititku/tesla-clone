@@ -2,7 +2,7 @@
 
 export default function StaticSection() {
   return (
-    <div className="[@media(min-width:500px)]:flex justify-between [@media(max-width:500px)]:ml-[8px] [@media(min-width:500px)]:mr-4 [@media(min-width:500px)]:ml-4 [@media(min-width:700px)]:ml-8 [@media(min-width:700px)]:mr-8">
+    <div className="grid grid-cols-1 [@media(min-width:500px)]:flex justify-between [@media(max-width:500px)]:ml-[8px] [@media(min-width:500px)]:mr-4 [@media(min-width:500px)]:ml-4 [@media(min-width:700px)]:ml-8 [@media(min-width:700px)]:mr-8">
       <div className="rounded-lg mt-8 bg-gray-100 mr-[10px] [@media(min-width:950px)]:flex flex-1">
         <div className="rounded-lg [@media(min-width:500px)]:hidden bg-[url('/assets/Homepage-Grid-Current-Offers.avif')] bg-center bg-cover w-full h-[180px]"></div>
         <div className="mt-4 ml-8 ">
