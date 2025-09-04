@@ -2,7 +2,7 @@
 
 export default function Footer() {
   return (
-    <div className="pb-8">
+    <div className="pb-16">
       <div className="flex flex-col items-center text-xs [@media(max-width:500px)]:m-[10px] [@media(min-width:500px)]:m-8 [@media(min-width:700px)]:ml-[150px] [@media(min-width:700px)]:mr-[150px]">
         <p className="opacity-[0.7]">
           $7,500 federal tax credit available to eligible buyers who purchase

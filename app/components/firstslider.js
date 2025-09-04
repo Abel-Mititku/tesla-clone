@@ -1,8 +1,6 @@
 "use client";
 import { Orbitron } from "next/font/google";
-import { useState, useEffect, useRef } from "react";
-import Link from "next/link";
-import { Weight } from "lucide-react";
+import { useEffect, useRef } from "react";
 
 const orbitron = Orbitron({ subsets: ["latin"], weight: ["400", "700"] });
 
@@ -75,10 +73,10 @@ export default function FirstSlide() {
                 </p>
               </div>
               <div className="flex justify-start w-full [@media(max-width:500px)]:ml-[10px] [@media(min-width:500px)]:ml-8 [@media(max-width:500px)]:mb-[10px] [@media(min-width:500px)]:mb-8 text-sm">
-                <button className="bg-blue-500 w-[120px] rounded-md h-8 text-white mr-4">
+                <button className="bg-blue-500 w-[35%] rounded-md h-8 text-white mr-4">
                   Order Now
                 </button>
-                <button className="bg-white w-[120px] rounded-md h-8">
+                <button className="bg-white w-[35%] rounded-md h-8">
                   Learn More
                 </button>
               </div>
@@ -105,10 +103,10 @@ export default function FirstSlide() {
                 </p>
               </div>
               <div className="flex justify-start w-full [@media(max-width:500px)]:ml-[10px] [@media(min-width:500px)]:ml-8 [@media(max-width:500px)]:mb-[10px] [@media(min-width:500px)]:mb-8 text-sm">
-                <button className="bg-blue-500 w-[120px] rounded-md h-8 text-white mr-4">
+                <button className="bg-blue-500 w-[35%] rounded-md h-8 text-white mr-4">
                   Order Now
                 </button>
-                <button className="bg-white w-[120px] rounded-md h-8">
+                <button className="bg-white w-[35%] rounded-md h-8">
                   Learn More
                 </button>
               </div>
@@ -135,10 +133,10 @@ export default function FirstSlide() {
                 </p>
               </div>
               <div className="flex justify-start w-full [@media(max-width:500px)]:ml-[10px] [@media(min-width:500px)]:ml-8 [@media(max-width:500px)]:mb-[10px] [@media(min-width:500px)]:mb-8 text-sm">
-                <button className="bg-blue-500 w-[120px] rounded-md h-8 text-white mr-4">
+                <button className="bg-blue-500 w-[35%] rounded-md h-8 text-white mr-4">
                   Order Now
                 </button>
-                <button className="bg-white w-[120px] rounded-md h-8">
+                <button className="bg-white w-[35%] rounded-md h-8">
                   Learn More
                 </button>
               </div>
@@ -168,10 +166,10 @@ export default function FirstSlide() {
                 </a>
               </div>
               <div className="flex justify-start w-full [@media(max-width:500px)]:ml-[10px] [@media(min-width:500px)]:ml-8 [@media(max-width:500px)]:mb-[10px] [@media(min-width:500px)]:mb-8 text-sm">
-                <button className="bg-blue-500 w-[120px] rounded-md h-8 text-white mr-4">
+                <button className="bg-blue-500 w-[35%] rounded-md h-8 text-white mr-4">
                   Order Now
                 </button>
-                <button className="bg-white w-[120px] rounded-md h-8">
+                <button className="bg-white w-[35%] rounded-md h-8">
                   Learn More
                 </button>
               </div>
@@ -202,10 +200,10 @@ export default function FirstSlide() {
                 </a>
               </div>
               <div className="flex justify-start w-full [@media(max-width:500px)]:ml-[10px] [@media(min-width:500px)]:ml-8 [@media(max-width:500px)]:mb-[10px] [@media(min-width:500px)]:mb-8 text-sm">
-                <button className="bg-blue-500 w-[120px] rounded-md h-8 text-white mr-4">
+                <button className="bg-blue-500 w-[35%] rounded-md h-8 text-white mr-4">
                   Order Now
                 </button>
-                <button className="bg-white w-[120px] rounded-md h-8">
+                <button className="bg-white w-[35%] rounded-md h-8">
                   Learn More
                 </button>
               </div>

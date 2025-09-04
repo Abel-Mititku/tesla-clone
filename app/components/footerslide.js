@@ -50,11 +50,11 @@ export default function FooterSlide() {
             <p className="text-white text-sm">
               Use Solar Energy to Power Your Home and Charge Your Tesla
             </p>
-            <div>
-              <button className="bg-blue-500 w-[120px] rounded-md h-8 text-white mr-4">
+            <div className="flex">
+              <button className="bg-blue-500 w-[35%] rounded-md h-8 text-white mr-4">
                 Order Now
               </button>
-              <button className="bg-white w-[120px] rounded-md h-8">
+              <button className="bg-white w-[35%] rounded-md h-8">
                 Learn More
               </button>
             </div>
@@ -73,11 +73,11 @@ export default function FooterSlide() {
             <p className="text-white text-sm">
               Keep Your Lights On During Outages
             </p>
-            <div>
-              <button className="bg-blue-500 w-[120px] rounded-md h-8 text-white mr-4">
+            <div className="flex">
+              <button className="bg-blue-500 w-[35%] rounded-md h-8 text-white mr-4">
                 Order Now
               </button>
-              <button className="bg-white w-[120px] rounded-md h-8">
+              <button className="bg-white w-[35%] rounded-md h-8">
                 Learn More
               </button>
             </div>
@@ -96,11 +96,11 @@ export default function FooterSlide() {
             <p className="text-white text-sm">
               Generate Clean Energy With Your Roof
             </p>
-            <div>
-              <button className="bg-blue-500 w-[120px] rounded-md h-8 text-white mr-4">
+            <div className="flex">
+              <button className="bg-blue-500 w-[35%] rounded-md h-8 text-white mr-4">
                 Order Now
               </button>
-              <button className="bg-white w-[120px] rounded-md h-8">
+              <button className="bg-white w-[35%] rounded-md h-8">
                 Learn More
               </button>
             </div>
@@ -119,8 +119,8 @@ export default function FooterSlide() {
             <p className="text-white text-sm">
               Massive Batteries for Massive Energy Support
             </p>
-            <div>
-              <button className="bg-blue-500 w-[120px] rounded-md h-8 text-white mr-4">
+            <div className="flex">
+              <button className="bg-blue-500 w-[35%] rounded-md h-8 text-white mr-4">
                 Order Now
               </button>
             </div>
