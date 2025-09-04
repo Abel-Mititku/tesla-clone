@@ -636,8 +636,8 @@ export default function Navigation() {
             ref={slides[3]}
             className="relative z-[33333] flex text-gray-800 dark:text-gray-800"
           >
-            <div className="z-[33333] h-[370px] [@media(max-width:950px)]:h-screen bg-white w-full flex justify-center absolute top-0 left-0 overflow-y-scroll">
-              <div className="mt-8 flex justify-center space-x-16 [@media(max-width:950px)]:flex-col">
+            <div className="z-[33333] [@media(min-width:950px)]:h-[370px] [@media(max-width:950px)]:h-screen bg-white w-full flex justify-center absolute top-0 left-0 overflow-y-scroll">
+              <div className="[@media(min-width:950px)]:mt-8 flex justify-center space-x-16 [@media(max-width:950px)]:flex-col">
                 <div className="flex flex-col space-y-2 text-xs">
                   <p className="opacity-[0.7] hidden [@media(min-width:950px)]:flex">
                     Resources
