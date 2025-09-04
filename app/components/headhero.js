@@ -129,8 +129,8 @@ export default function HeaderHero() {
               <button className="bg-blue-500 rounded-md w-[150px] h-8 text-white mr-4">
                 Order Now
               </button>
-              <button className="bg-white rounded-md w-[150px] h-8 ">
-                Veiw Inventory
+              <button className="bg-white rounded-md w-[150px] h-8 text-gray-800 dark:text-gray-800">
+                View Inventory
               </button>
             </div>
           </div>
@@ -156,8 +156,8 @@ export default function HeaderHero() {
               <button className="bg-blue-500 rounded-md w-[150px] h-8 text-white mr-4">
                 Order Now
               </button>
-              <button className="bg-white rounded-md w-[150px] h-8 ">
-                Veiw Inventory
+              <button className="bg-white rounded-md w-[150px] h-8 text-gray-800 dark:text-gray-800">
+                View Inventory
               </button>
             </div>
           </div>

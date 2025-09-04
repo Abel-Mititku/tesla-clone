@@ -18,11 +18,11 @@ export default function DrivingSection() {
           <p className="text-white text-4xl text-bold z-[10]">
             Full Self-Driving (Supervised)
           </p>
-          <div className="flex text-sm">
+          <div className="flex text-sm mt-2">
             <button className="bg-blue-500 w-[120px] rounded-md h-8 text-white mr-4">
               Demo Drive
             </button>
-            <button className="bg-white w-[120px] rounded-md h-8 text-blue-900">
+            <button className="bg-white w-[120px] rounded-md h-8 text-gray-800 dark:text-gray-800">
               Learn More
             </button>
           </div>

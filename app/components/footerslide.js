@@ -54,7 +54,7 @@ export default function FooterSlide() {
               <button className="bg-blue-500 w-[35%] rounded-md h-8 text-white mr-4">
                 Order Now
               </button>
-              <button className="bg-white w-[35%] rounded-md h-8 text-blue-900">
+              <button className="bg-white w-[35%] rounded-md h-8 text-gray-800 dark:text-gray-800">
                 Learn More
               </button>
             </div>
@@ -77,7 +77,7 @@ export default function FooterSlide() {
               <button className="bg-blue-500 w-[35%] rounded-md h-8 text-white mr-4">
                 Order Now
               </button>
-              <button className="bg-white w-[35%] rounded-md h-8 text-blue-900">
+              <button className="bg-white w-[35%] rounded-md h-8 text-gray-800 dark:text-gray-800">
                 Learn More
               </button>
             </div>
@@ -100,7 +100,7 @@ export default function FooterSlide() {
               <button className="bg-blue-500 w-[35%] rounded-md h-8 text-white mr-4">
                 Order Now
               </button>
-              <button className="bg-white w-[35%] rounded-md h-8 text-blue-900">
+              <button className="bg-white w-[35%] rounded-md h-8 text-gray-800 dark:text-gray-800">
                 Learn More
               </button>
             </div>
