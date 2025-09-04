@@ -7,7 +7,7 @@ export default function StaticSection() {
         <div className="rounded-lg [@media(min-width:500px)]:hidden bg-[url('/assets/Homepage-Grid-Current-Offers.avif')] bg-center bg-cover w-full h-[180px]"></div>
         <div className="mt-4 ml-8 ">
           <p className="text-extrabold text-3xl">Current Offers</p>
-          <p className="text-gray-700 text-sm">
+          <p className="text-black text-sm">
             Limited inventory. Take delivery today.
           </p>
           <button className="px-4 py-2 mt-4 mb-4 mr-4 w-[200px] text-sm bg-white rounded">

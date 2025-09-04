@@ -76,7 +76,7 @@ export default function FirstSlide() {
                 <button className="bg-blue-500 w-[35%] rounded-md h-8 text-white mr-4">
                   Order Now
                 </button>
-                <button className="bg-white w-[35%] rounded-md h-8 text-black">
+                <button className="bg-white w-[35%] rounded-md h-8">
                   Learn More
                 </button>
               </div>
