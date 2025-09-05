@@ -79,8 +79,8 @@ export default function Navigation() {
   }, [menuOpen, click]);
 
   return (
-    <nav className="w-full z-[33333] [@media(min-width:500px)]:fixed">
-      <div className="flex flex-col absolute top-0 z-[33333] w-full">
+    <nav className="w-full z-40 [@media(min-width:500px)]:fixed">
+      <div className="flex flex-col absolute top-0 z-40 w-full">
         <div className="flex justify-between h-[40px] items-center [@media(min-width:500px)]:bg-white">
           <a
             href="#"
@@ -186,7 +186,7 @@ export default function Navigation() {
         </div>
         {menuOpen && (
           <div
-            className="fixed inset-0 buttom-0 top-[40px]  bg-black/30 backdrop-blur-sm z-[33332]"
+            className="fixed inset-0 buttom-0 top-[40px]  bg-black/30 backdrop-blur-sm z-[5]"
             onMouseEnter={() => {
               setVehicle(false);
               setEnergy(false);
@@ -198,13 +198,13 @@ export default function Navigation() {
         )}
 
         {vehicle && (
-          <div
-            ref={slides[0]}
-            className="relative z-[33333] flex text-gray-800 dark:text-gray-800"
-          >
-            <div className="z-[33333] h-[370px] [@media(max-width:950px)]:h-screen bg-white overflow-y-scroll [@media(max-width:950px)]:flex-col [@media(max-width:950px)]:items-center [@media(min-width:950px)]:flex [@media(min-width:950px)]:justify-center  absolute top-0 w-full">
+          <div ref={slides[0]} className="relative z-40 flex">
+            <button onClick={handleCancel}>
+              <ChevronLeft className="absolute top-0 left-0 z-40 opacity-[0.7] hover:bg-gray-100 cursor:pointer flex [@media(min-width:950px)]:hidden" />
+            </button>
+            <div className="z-40 h-[370px] [@media(max-width:950px)]:h-screen bg-white overflow-y-scroll [@media(max-width:950px)]:flex-col [@media(max-width:950px)]:items-center [@media(min-width:950px)]:flex [@media(min-width:950px)]:justify-center  absolute top-0 w-full">
               <div className="flex [@media(min-width:500px)]:flex-col flex items-center justify-center mt-8 mr-8 space-y-6">
-                <div className="z-[33333] bg-white space-x-6 flex [@media(max-width:500px)]:flex-col  justify-center">
+                <div className="z-40 bg-white space-x-6 flex [@media(max-width:500px)]:flex-col  justify-center">
                   <div className="flex flex-col items-center">
                     <img
                       src="/assets/Mega-Menu-Vehicles-Model-S-New.avif"
@@ -272,7 +272,7 @@ export default function Navigation() {
                     </div>
                   </div>
                 </div>
-                <div className="z-[33333] bg-white space-x-6 flex [@media(max-width:500px)]:flex-col justify-center">
+                <div className="z-40 bg-white space-x-6 flex [@media(max-width:500px)]:flex-col justify-center">
                   <div className="flex flex-col items-center">
                     <img
                       src="/assets/Mega-Menu-Vehicles-Model-X-New.avif"
@@ -388,13 +388,13 @@ export default function Navigation() {
         )}
 
         {energy && (
-          <div
-            ref={slides[1]}
-            className="relative z-[33333] flex text-gray-800 dark:text-gray-800"
-          >
-            <div className="z-[33333] h-[370px] [@media(max-width:950px)]:h-screen bg-white overflow-y-scroll [@media(max-width:950px)]:flex-col [@media(min-width:950px)]:flex justify-center  absolute top-0 w-full">
+          <div ref={slides[1]} className="relative z-40 flex">
+            <button onClick={handleCancel}>
+              <ChevronLeft className="absolute top-0 left-0 z-60 opacity-[0.7] hover:bg-gray-100 cursor:pointer flex [@media(min-width:950px)]:hidden" />
+            </button>
+            <div className="z-40 h-[370px] [@media(max-width:950px)]:h-screen bg-white overflow-y-scroll [@media(max-width:950px)]:flex-col [@media(min-width:950px)]:flex justify-center  absolute top-0 w-full">
               <div className="flex flex-col items-center mt-16 space-y-6">
-                <div className="z-[33333] bg-white space-x-6 flex justify-center flex-1">
+                <div className="z-40 bg-white space-x-6 flex justify-center flex-1">
                   <div className="flex flex-col items-center">
                     <img
                       src="/assets/Mega-Menu-Energy-Solar-Panels.avif"
@@ -514,13 +514,13 @@ export default function Navigation() {
         )}
 
         {charging && (
-          <div
-            ref={slides[2]}
-            className="relative z-[33333] flex text-gray-800 dark:text-gray-800"
-          >
-            <div className="z-[33333] h-[370px] [@media(max-width:950px)]:h-screen bg-white overflow-y-scroll [@media(max-width:950px)]:flex-col [@media(max-width:950px)]:items-center [@media(min-width:950px)]:flex [@media(min-width:950px)]:justify-center items-center absolute top-0 w-full">
+          <div ref={slides[2]} className="relative z-40 flex">
+            <button onClick={handleCancel}>
+              <ChevronLeft className="absolute top-0 left-0 z-60 opacity-[0.7] hover:bg-gray-100 cursor:pointer flex [@media(min-width:950px)]:hidden" />
+            </button>
+            <div className="z-40 h-[370px] [@media(max-width:950px)]:h-screen bg-white overflow-y-scroll [@media(max-width:950px)]:flex-col [@media(max-width:950px)]:items-center [@media(min-width:950px)]:flex [@media(min-width:950px)]:justify-center items-center absolute top-0 w-full">
               <div className="flex flex-col space-y-6 items-center">
-                <div className="z-[33333] bg-white space-x-6 mt-16 flex justify-center">
+                <div className="z-40 bg-white space-x-6 mt-16 flex justify-center">
                   <div className="flex flex-col items-center">
                     <img
                       src="/assets/Mega-Menu-Charging-Charging.avif"
@@ -632,12 +632,12 @@ export default function Navigation() {
         )}
 
         {discover && (
-          <div
-            ref={slides[3]}
-            className="relative z-[33333] flex text-gray-800 dark:text-gray-800"
-          >
-            <div className="z-[33333] [@media(min-width:950px)]:h-[370px] [@media(max-width:950px)]:h-screen bg-white w-full flex justify-center absolute top-0 left-0 overflow-y-scroll">
-              <div className="[@media(min-width:950px)]:mt-8 flex justify-center space-x-16 [@media(max-width:950px)]:flex-col">
+          <div ref={slides[3]} className="relative z-40 flex">
+            <button onClick={handleCancel}>
+              <ChevronLeft className="absolute top-0 left-0 z-60 opacity-[0.7] hover:bg-gray-100 cursor:pointer flex [@media(min-width:950px)]:hidden" />
+            </button>
+            <div className="z-40 bg-white w-full flex justify-center absolute top-0 left-0 overflow-y-scroll">
+              <div className="mt-8 mb-16 flex justify-center space-x-16 [@media(max-width:950px)]:flex-col">
                 <div className="flex flex-col space-y-2 text-xs">
                   <p className="opacity-[0.7] hidden [@media(min-width:950px)]:flex">
                     Resources
@@ -707,11 +707,8 @@ export default function Navigation() {
         )}
 
         {shop && (
-          <div
-            ref={slides[4]}
-            className="relative z-[33333] flex text-gray-800 dark:text-gray-800"
-          >
-            <div className="z-[33333] bg-white  flex justify-center  w-full cursor-pointer">
+          <div ref={slides[4]} className="relative z-40 flex">
+            <div className="z-40 bg-white  flex justify-center  w-full cursor-pointer">
               <div className="flex flex-col items-center mb-8 mt-8">
                 <img
                   src="assets/Mega-Menu-Shop-Charging.avif"
@@ -750,7 +747,7 @@ export default function Navigation() {
         )}
 
         {click && (
-          <div className="absolute bg-white top-0 left-0 w-full h-screen z-[1000] text-sm overflow-y-scroll text-gray-800 dark:text-gray-800">
+          <div className="absolute bg-white top-0 left-0 w-full h-screen z-40 text-sm overflow-y-scroll">
             <button
               onClick={() => {
                 setClick(false);
@@ -764,36 +761,67 @@ export default function Navigation() {
             >
               <X />
             </button>
-            {menuOpen && (
-              <button onClick={handleCancel}>
-                <ChevronLeft className="absolute top-0 left-0 opacity-[0.7] hover:bg-gray-100 cursor:pointer flex [@media(min-width:950px)]:hidden text-gray-800 dark:text-gray-800" />
-              </button>
-            )}
+
             <ul className="space-y-[10px] mt-16 bg-white">
               <li
-                className="hover:bg-gray-100  p-4 cursor:pointer flex justify-between"
+                className={`p-4 cursor:pointer flex justify-between ${
+                  menuOpen
+                    ? `text-white`
+                    : `text-black dark:text-black hover:bg-gray-100`
+                }`}
                 onClick={() => setVehicle(true)}
               >
                 <p>Vehicles</p>
-                <ChevronRight className="opacity-[0.7]" />
+                <ChevronRight
+                  className={`${
+                    menuOpen ? `text-white` : `text-black dark:text-black`
+                  }`}
+                />
               </li>
               <li
-                className="hover:bg-gray-100  p-4 cursor:pointer flex justify-between"
+                className={`p-4 cursor:pointer flex justify-between ${
+                  menuOpen
+                    ? `text-white`
+                    : `text-black dark:text-black hover:bg-gray-100`
+                }`}
                 onClick={() => setEnergy(true)}
               >
-                <p>Energy</p> <ChevronRight className="opacity-[0.7]" />
+                <p>Energy</p>{" "}
+                <ChevronRight
+                  className={`${
+                    menuOpen ? `text-white` : `text-black dark:text-black`
+                  }`}
+                />
               </li>
               <li
-                className="hover:bg-gray-100  p-4 cursor:pointer flex justify-between"
+                className={`p-4 cursor:pointer flex justify-between ${
+                  menuOpen
+                    ? `text-white`
+                    : `text-black dark:text-black hover:bg-gray-100`
+                }`}
                 onClick={() => setCharging(true)}
               >
-                <p>Charging</p> <ChevronRight className="opacity-[0.7]" />
+                <p>Charging</p>{" "}
+                <ChevronRight
+                  className={`${
+                    menuOpen ? `text-white` : `text-black dark:text-black`
+                  }`}
+                />
               </li>
               <li
-                className="hover:bg-gray-100  p-4 cursor:pointer flex justify-between"
+                className={`p-4 cursor:pointer flex justify-between ${
+                  menuOpen
+                    ? `text-white`
+                    : `text-black dark:text-black hover:bg-gray-100`
+                }`}
                 onClick={() => setDiscover(true)}
               >
-                <p>Discover</p> <ChevronRight className="opacity-[0.7]" />
+                <p>Discover</p>{" "}
+                <ChevronRight
+                  className={`${
+                    menuOpen ? `text-white` : `text-black dark:text-black`
+                  }`}
+                />
               </li>
               <li className="hover:bg-gray-100  p-4 cursor:pointer">Shop</li>
               <li className="hover:bg-gray-100  p-4 cursor:pointer flex justify-between">

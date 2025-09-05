@@ -49,8 +49,8 @@ export default function FirstSlide() {
     };
   }, []);
   return (
-    <div className="[@media(max-width:500px)]:pt-[390px] [@media(min-width:500px)]:pt-[430px] overflow-x-scroll scrollbar-hide [@media(max-width:500px)]:ml-[8px] [@media(min-width:500px)]:ml-4 [@media(min-width:700px)]:ml-8">
-      <div className="flex space-x-6 items-center h-[430px]">
+    <div className="relative [@media(max-width:500px)]:pt-[390px] [@media(min-width:500px)]:pt-[430px] [@media(max-width:500px)]:ml-[8px] [@media(min-width:500px)]:ml-4 [@media(min-width:700px)]:ml-8">
+      <div className="flex space-x-6 items-center h-[430px] overflow-x-scroll scrollbar-hide">
         <div
           ref={slides[0]}
           className="h-[400px] w-[70%] rounded-lg shrink-0 [@media(max-width:500px)]:bg-[url('/assets/Homepage-Card-Cybertruck-Mobile-Dynamic-Asset.avif')] [@media(min-width:500px)]:bg-[url('/assets/Homepage-Card-Cybertruck-Desktop-Dynamic-Asset.avif')] bg-cover bg-top"

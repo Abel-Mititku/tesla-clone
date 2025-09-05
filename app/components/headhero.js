@@ -24,7 +24,7 @@ export default function HeaderHero() {
     );
     gsap.to(slides[currentIndex].current, {
       autoAlpha: 1,
-      zIndex: 11111,
+      zIndex: 30,
       duration: 2,
     });
   }, [currentIndex]);
@@ -70,12 +70,12 @@ export default function HeaderHero() {
     <div className="relative">
       <ChevronLeft
         onClick={previousSlide}
-        className="[@media(max-width:950px)]:hidden bg-white/60 opacity-[0.7] rounded w-8 h-8 absolute top-[200px] z-[22222] left-8"
+        className="[@media(max-width:950px)]:hidden bg-white/60 opacity-[0.7] rounded w-8 h-8 absolute top-[200px] z-60 left-8"
       />
 
       <ChevronRight
         onClick={nextSlide}
-        className="[@media(max-width:950px)]:hidden bg-white/60 opacity-[0.7] rounded w-8 h-8 absolute top-[200px] z-[22222] right-8"
+        className="[@media(max-width:950px)]:hidden bg-white/60 opacity-[0.7] rounded w-8 h-8 absolute top-[200px] z-60 right-8"
       />
 
       <div
@@ -163,7 +163,7 @@ export default function HeaderHero() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center w-full space-x-[4px] absolute [@media(min-width:500px)]:top-[400px] [@media(max-width:500px)]:top-[360px] z-[22222]">
+      <div className="flex justify-center w-full space-x-[4px] absolute [@media(min-width:500px)]:top-[400px] [@media(max-width:500px)]:top-[360px] z-30">
         <div
           className={`w-[10px] h-[10px] ${
             currentIndex === 0 ? `bg-white` : `bg-gray-400`
