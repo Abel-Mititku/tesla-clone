@@ -757,7 +757,7 @@ export default function Navigation() {
                 setDiscover(false);
                 setShop(false);
               }}
-              className="absolute top-0 right-0 opacity-[0.7] hover:bg-gray-100 cursor:pointer"
+              className="absolute top-0 right-0 opacity-[0.7] hover:bg-gray-100 cursor:pointer text-black dark:text-black"
             >
               <X />
             </button>
@@ -823,8 +823,10 @@ export default function Navigation() {
                   }`}
                 />
               </li>
-              <li className="hover:bg-gray-100  p-4 cursor:pointer">Shop</li>
-              <li className="hover:bg-gray-100  p-4 cursor:pointer flex justify-between">
+              <li className="hover:bg-gray-100  p-4 cursor:pointer text-black dark:text-black">
+                Shop
+              </li>
+              <li className="hover:bg-gray-100  p-4 cursor:pointer flex justify-between text-black dark:text-black">
                 <div className="">
                   <div className="flex">
                     {" "}
@@ -834,7 +836,7 @@ export default function Navigation() {
                 </div>
                 <ChevronRight className="opacity-[0.7]" />
               </li>
-              <li className="hover:bg-gray-100  p-4 flex cursor:pointer">
+              <li className="hover:bg-gray-100  p-4 flex cursor:pointer text-black dark:text-black">
                 <UserCircle />
                 Account
               </li>
