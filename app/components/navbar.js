@@ -204,8 +204,8 @@ export default function Navigation() {
             </button>
             <div className=" text-black dark:text-blackz-40 [@media(max-width:950px)]:h-screen bg-white overflow-y-scroll [@media(max-width:950px)]:flex-col [@media(max-width:950px)]:items-center [@media(min-width:950px)]:flex [@media(min-width:950px)]:justify-center  absolute top-0 w-full">
               <div className="flex [@media(min-width:500px)]:flex-col flex items-center justify-center mt-8 mr-8 space-y-6 mb-8">
-                <div className="z-40 bg-white space-x-6 flex [@media(max-width:500px)]:flex-col  justify-center">
-                  <div className="flex flex-col items-center [@media(max-width:500px)]:mt-2">
+                <div className="z-40 bg-white space-x-6 flex [@media(max-width:500px)]:flex-col [@media(max-width:500px)]:mt-6">
+                  <div className="flex flex-col items-center">
                     <img
                       src="/assets/Mega-Menu-Vehicles-Model-S-New.avif"
                       alt="Model-S-New"
@@ -272,7 +272,7 @@ export default function Navigation() {
                     </div>
                   </div>
                 </div>
-                <div className="z-40 bg-white space-x-6 flex [@media(max-width:500px)]:flex-col justify-center">
+                <div className="z-40 bg-white space-x-6 flex [@media(max-width:500px)]:flex-col">
                   <div className="flex flex-col items-center">
                     <img
                       src="/assets/Mega-Menu-Vehicles-Model-X-New.avif"
