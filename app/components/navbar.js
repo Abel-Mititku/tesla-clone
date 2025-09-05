@@ -200,7 +200,7 @@ export default function Navigation() {
         {vehicle && (
           <div ref={slides[0]} className="relative z-40 flex">
             <button onClick={handleCancel}>
-              <ChevronLeft className="absolute top-0 left-0 z-40 opacity-[0.7] hover:bg-gray-100 cursor:pointer flex [@media(min-width:950px)]:hidden" />
+              <ChevronLeft className="text-black dark:text-black absolute top-0 left-0 z-40 opacity-[0.7] hover:bg-gray-100 cursor:pointer flex [@media(min-width:950px)]:hidden text-black dark:text-black" />
             </button>
             <div className="z-40 h-[370px] [@media(max-width:950px)]:h-screen bg-white overflow-y-scroll [@media(max-width:950px)]:flex-col [@media(max-width:950px)]:items-center [@media(min-width:950px)]:flex [@media(min-width:950px)]:justify-center  absolute top-0 w-full">
               <div className="flex [@media(min-width:500px)]:flex-col flex items-center justify-center mt-8 mr-8 space-y-6">
@@ -390,9 +390,9 @@ export default function Navigation() {
         {energy && (
           <div ref={slides[1]} className="relative z-40 flex">
             <button onClick={handleCancel}>
-              <ChevronLeft className="absolute top-0 left-0 z-60 opacity-[0.7] hover:bg-gray-100 cursor:pointer flex [@media(min-width:950px)]:hidden" />
+              <ChevronLeft className="text-black dark:text-black absolute top-0 left-0 z-60 opacity-[0.7] hover:bg-gray-100 cursor:pointer flex [@media(min-width:950px)]:hidden" />
             </button>
-            <div className="z-40 h-[370px] [@media(max-width:950px)]:h-screen bg-white overflow-y-scroll [@media(max-width:950px)]:flex-col [@media(min-width:950px)]:flex justify-center  absolute top-0 w-full">
+            <div className="text-black dark:text-black z-40 h-[370px] [@media(max-width:950px)]:h-screen bg-white overflow-y-scroll [@media(max-width:950px)]:flex-col [@media(min-width:950px)]:flex justify-center  absolute top-0 w-full">
               <div className="flex flex-col items-center mt-16 space-y-6">
                 <div className="z-40 bg-white space-x-6 flex justify-center flex-1">
                   <div className="flex flex-col items-center">
@@ -516,9 +516,9 @@ export default function Navigation() {
         {charging && (
           <div ref={slides[2]} className="relative z-40 flex">
             <button onClick={handleCancel}>
-              <ChevronLeft className="absolute top-0 left-0 z-60 opacity-[0.7] hover:bg-gray-100 cursor:pointer flex [@media(min-width:950px)]:hidden" />
+              <ChevronLeft className="text-black dark:text-black absolute top-0 left-0 z-60 opacity-[0.7] hover:bg-gray-100 cursor:pointer flex [@media(min-width:950px)]:hidden" />
             </button>
-            <div className="z-40 h-[370px] [@media(max-width:950px)]:h-screen bg-white overflow-y-scroll [@media(max-width:950px)]:flex-col [@media(max-width:950px)]:items-center [@media(min-width:950px)]:flex [@media(min-width:950px)]:justify-center items-center absolute top-0 w-full">
+            <div className="text-black dark:text-black z-40 h-[370px] [@media(max-width:950px)]:h-screen bg-white overflow-y-scroll [@media(max-width:950px)]:flex-col [@media(max-width:950px)]:items-center [@media(min-width:950px)]:flex [@media(min-width:950px)]:justify-center items-center absolute top-0 w-full">
               <div className="flex flex-col space-y-6 items-center">
                 <div className="z-40 bg-white space-x-6 mt-16 flex justify-center">
                   <div className="flex flex-col items-center">
@@ -634,9 +634,9 @@ export default function Navigation() {
         {discover && (
           <div ref={slides[3]} className="relative z-40 flex">
             <button onClick={handleCancel}>
-              <ChevronLeft className="absolute top-0 left-0 z-60 opacity-[0.7] hover:bg-gray-100 cursor:pointer flex [@media(min-width:950px)]:hidden" />
+              <ChevronLeft className="text-black dark:text-black absolute top-0 left-0 z-60 opacity-[0.7] hover:bg-gray-100 cursor:pointer flex [@media(min-width:950px)]:hidden" />
             </button>
-            <div className="z-40 bg-white w-full flex justify-center absolute top-0 left-0 overflow-y-scroll">
+            <div className="text-black dark:text-black z-40 bg-white w-full flex justify-center absolute top-0 left-0 overflow-y-scroll">
               <div className="mt-8 mb-16 flex justify-center space-x-16 [@media(max-width:950px)]:flex-col">
                 <div className="flex flex-col space-y-2 text-xs">
                   <p className="opacity-[0.7] hidden [@media(min-width:950px)]:flex">
@@ -708,7 +708,7 @@ export default function Navigation() {
 
         {shop && (
           <div ref={slides[4]} className="relative z-40 flex">
-            <div className="z-40 bg-white  flex justify-center  w-full cursor-pointer">
+            <div className="text-black dark:text-black z-40 bg-white  flex justify-center  w-full cursor-pointer">
               <div className="flex flex-col items-center mb-8 mt-8">
                 <img
                   src="assets/Mega-Menu-Shop-Charging.avif"
