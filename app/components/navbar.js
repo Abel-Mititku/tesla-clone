@@ -344,7 +344,7 @@ export default function Navigation() {
                 </div>
               </div>
               <div className="flex flex-col mt-8 ml-8 mr-8 [@media(max-width:950px)]:border-t [@media(min-width:950px)]:border-l bg-white h-[280px] items-center">
-                <div className="ml-8 mt-8 flex flex-col space-y-[8px] text-xs">
+                <div className="ml-8 mt-8 [@media(max-width:950px)]:pb-32 [@media(max-width:950px)]:space-y-6 flex flex-col space-y-[8px] text-xs">
                   <a href="#" className="hover:underline">
                     Current Offers
                   </a>
@@ -485,7 +485,7 @@ export default function Navigation() {
                 </div>
               </div>
               <div className="flex flex-col ml-8 mr-8 mt-16 items-center h-[280px] [@media(max-width:950px)]:border-t [@media(min-width:950px)]:border-l">
-                <div className="ml-8 mt-8 flex flex-col space-y-[15px] text-xs h-full">
+                <div className="ml-8 mt-8 flex flex-col space-y-[15px] text-xs h-full [@media(max-width:950px)]:pb-32 [@media(max-width:950px)]:space-y-6">
                   <a href="#" className="hover:underline">
                     Schedule a Consultation
                   </a>
@@ -609,7 +609,7 @@ export default function Navigation() {
                 </div>
               </div>
               <div className="flex flex-col items-center ml-8 mr-8 mt-16 h-[280px] [@media(max-width:950px)]:border-t [@media(min-width:950px)]:border-l ">
-                <div className="ml-8 mt-8 flex flex-col space-y-[15px] text-xs h-full">
+                <div className="ml-8 mt-8 flex flex-col space-y-[15px] [@media(max-width:950px)]:pb-32 [@media(max-width:950px)]:space-y-6 text-xs h-full">
                   <a href="#" className="hover:underline">
                     Help Me Charge
                   </a>
@@ -637,12 +637,12 @@ export default function Navigation() {
               <ChevronLeft className="text-black dark:text-black absolute top-0 left-0 z-60 opacity-[0.7] hover:bg-gray-100 cursor:pointer flex [@media(min-width:950px)]:hidden" />
             </button>
             <div className="text-black dark:text-black [@media(max-width:950px)]:h-screen z-40 bg-white w-full flex justify-center absolute top-0 left-0 overflow-y-scroll">
-              <div className="mt-8 mb-16 flex justify-center space-x-16 [@media(max-width:950px)]:flex-col">
-                <div className="flex flex-col space-y-2 text-xs">
+              <div className="mb-16 flex justify-center space-x-16 [@media(max-width:950px)]:flex-col">
+                <div className="flex flex-col space-y-2 text-xs [@media(max-width:950px)]:pt-60">
                   <p className="opacity-[0.7] hidden [@media(min-width:950px)]:flex">
                     Resources
                   </p>
-                  <div className="flex flex-col space-y-2 font-semibold mt-4">
+                  <div className="flex flex-col space-y-2 font-semibold mt-4 [@media(max-width:950px)]:space-y-6">
                     <a href="#" className="hover:underline">
                       Demo Drive
                     </a>
@@ -673,7 +673,7 @@ export default function Navigation() {
                   <p className="opacity-[0.7] hidden [@media(min-width:950px)]:flex">
                     Location Services
                   </p>
-                  <div className="flex flex-col space-y-2 font-semibold mt-4">
+                  <div className="flex flex-col space-y-2 font-semibold mt-4 [@media(max-width:950px)]:space-y-6">
                     <a href="#" className="hover:underline">
                       Find Us
                     </a>
@@ -689,7 +689,7 @@ export default function Navigation() {
                   <p className="opacity-[0.7] hidden [@media(min-width:950px)]:flex">
                     Company
                   </p>
-                  <div className="flex flex-col space-y-2 font-semibold mt-4">
+                  <div className="flex flex-col space-y-2 font-semibold mt-4 [@media(max-width:950px)]:space-y-6 [@media(max-width:950px)]:pb-32">
                     <a href="#" className="hover:underline">
                       About
                     </a>
