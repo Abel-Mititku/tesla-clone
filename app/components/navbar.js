@@ -484,8 +484,8 @@ export default function Navigation() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col ml-8 mr-8 mt-16 items-center h-[280px] [@media(max-width:950px)]:border-t [@media(min-width:950px)]:border-l">
-                <div className="ml-8 mt-8 flex flex-col space-y-[15px] text-xs h-full [@media(max-width:950px)]:pb-32 [@media(max-width:950px)]:space-y-6">
+              <div className="flex flex-col ml-8 mr-8 mt-16 items-center [@media(max-width:950px)]:border-t [@media(min-width:950px)]:border-l">
+                <div className="ml-8 mt-8 flex flex-col space-y-[15px] text-xs [@media(max-width:950px)]:pb-16 [@media(max-width:950px)]:space-y-6">
                   <a href="#" className="hover:underline">
                     Schedule a Consultation
                   </a>
